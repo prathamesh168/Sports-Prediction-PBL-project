@@ -1,0 +1,71 @@
+{% extends "webapp/base.html" %}
+
+{% block navbar %}
+
+<!-- <div>
+    <Navbar expand="lg" bg="myColor" variant="light" class="navbar">
+      <Navbar.Brand>
+        <img
+          src="../../../static/webapp/home/bcci.png"
+          alt="Logo"
+          style="width: 150px; margin-left: 15px"
+        />
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
+      <Navbar.Collapse id="responsive-navbar-nav" style="color: 'red'">
+        <Nav class="me-auto">
+          <Nav.Link></Nav.Link>
+        </Nav>
+        <Nav class="nav">
+          <NavLink activeClassName="menu_active" to="/" exact class="myCustomNavLink">
+            Home
+          </NavLink>
+          <NavLink activeClassName="menu_active" to="/about-us" class="myCustomNavLink" >
+            ML Algos
+          </NavLink>
+          {/* <NavLink  activeClassName="menu_active" to="/partners" class="myCustomNavLink">
+            Partners
+          </NavLink>
+          <NavLink activeClassName="menu_active" to="/past-editions" class="myCustomNavLink">
+            Past Editions
+          </NavLink> */}
+          <NavLink activeClassName="menu_active" to="/forums" class="myCustomNavLink">
+            Cricket
+          </NavLink>
+          {/* <NavLink activeClassName="menu_active" to="/contact-us" class="myCustomNavLink">
+            Football
+          </NavLink> */}
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+  </div> -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand">tindog</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">ML Algorithms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cta">Cricket</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cta">Football</a>
+              </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+{% endblock navbar %}

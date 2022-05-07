@@ -1,0 +1,25 @@
+{% extends 'webapp/base2.html' %}
+
+{% block content %}
+
+    <section id="heading">
+        <div class="container-fluid heading-container">
+            <img class="heading-img" src="../../../static/webapp/base2/sports-heading-img-2.1.jpg" alt="">
+        </div>
+        <div class="heading-container-text">
+            <h1 class="heading-text-h1">Welcome to Sports Prediction Site!</h1>
+            <h3 class="heading-text-h2">The best sports predictor on the internet.</h3>
+            <button type="button" class="btn btn-dark btn-lg login-btn">Login</button>
+            <button type="button" class="btn btn-dark btn-lg register-btn">Register</button>
+        </div>
+        <script type="text/javascript">
+            document.getElementsByClassName("login-btn")[0].onclick = function () {
+                location.href = "{% url 'login' %}";
+            };
+            document.getElementsByClassName("register-btn")[0].onclick = function () {
+                location.href = "{% url 'register' %}";
+            };
+        </script>
+    </section>
+
+{% endblock content %}

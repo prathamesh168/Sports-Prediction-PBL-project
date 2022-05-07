@@ -1,0 +1,5 @@
+.card:hover{
+    color: whitesmoke;
+    background-color:gold;
+    box-shadow: 0 0 5px grey, 0 0 10px grey,0 0 20px grey;
+}

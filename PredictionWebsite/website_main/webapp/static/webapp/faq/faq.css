@@ -1,0 +1,30 @@
+h2 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  p {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  .headingFAQ {
+    text-align: left;
+  }
+  .accordion-header {
+    border: none !important;
+  }
+  .accordion-item {
+    border: none !important;
+  }
+  .accordion-button {
+    font-size: 1.25rem !important;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .headingFAQ{
+        text-align: center;
+    }
+  }
+  

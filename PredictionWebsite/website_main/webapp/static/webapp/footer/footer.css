@@ -1,0 +1,57 @@
+.footer {
+    background-color: black;
+    color: white;
+    position: relative;
+    /* position: fixed; */
+    padding: 20px;
+    text-decoration: none;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.join {
+    border: solid 2px red;
+    padding: 8px;
+    font-size: 15px;
+    width: fit-content;
+}
+
+.cont {
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+
+.explore a {
+    color: white;
+    text-decoration: none;
+}
+
+.resources a {
+    color: white;
+    text-decoration: none;
+}
+
+.explore {
+    margin-bottom: 80px;
+}
+
+.resources {
+    margin-bottom: 80px;
+}
+
+.button {
+    border-radius: 15px;
+    width: 50px;
+    height: 40px;
+    background-color: grey;
+    color: white;
+    border: none;
+}
+
+.icons {
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 30px;
+}

@@ -1,0 +1,65 @@
+{% extends "webapp/base.html" %}
+
+{% block footer %}
+<container bsPrefix="cont">
+    <div class="footer">
+      <Row>
+        <col lg={4} xs={12}>
+          <img
+            src="../../../static/webapp/home/ml.jpg"
+            alt="Logo"
+            style="width: 80%; margin-left: 15px"
+          />
+          
+        </col>
+
+        <col lg={2} xs={6}>
+          <ul class="explore">
+            <li style="font-weight: 700; margin-bottom: 15px">
+              Explore
+            </li>
+            
+            <li>
+              <link to="/">Home</link>
+            </li>
+          </ul>
+        </col>
+
+        <col lg={2} xs={6}>
+          <ul class="resources">
+            <li style="font-weight: 700; margin-bottom: 15px">
+              Resources
+            </li>
+            <li>
+              <link to="/about-us">ML Algo</link>
+            </li>
+            <li>
+              <link to="/faq">FAQ</link>
+            </li>
+            <li>
+              <link to="/privacy-policy">Scraping Policy</link>
+            </li>
+          </ul>
+        </col
+        >
+
+        <col lg={4} xs={12}>
+        </col>
+    </row>
+      <row>
+        <col lg={8} xs={12}>
+          <ul>
+
+            <li style="margin-top: 10px; font-size: 2rem">
+              Made with ❤️ by{" "}
+              <link to="/web-team" style="color: blue; text-decoration: none; font-weight: 1000"}}>
+               Web Dev.
+              </link>
+            </li>
+          </ul>
+        </col>
+    </row>
+    </div>
+</container>
+
+  {% endblock footer %}

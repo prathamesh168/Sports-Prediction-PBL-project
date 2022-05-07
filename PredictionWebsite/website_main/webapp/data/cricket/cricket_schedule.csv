@@ -1,0 +1,75 @@
+team1,team2,venue,date,time
+Chennai Super Kings,Kolkata Knight Riders,Wankhede Stadium,"March 26, 2022",7:30 PM
+Mumbai Indians,Delhi Capitals,Brabourne Stadium,"March 27, 2022",3:30 PM
+Royal Challengers Bangalore,Kings XI Punjab,Dr DY Patil Sports Academy,"March 27, 2022",7:30 PM
+Lucknow Super Giants,Gujarat Titans,Wankhede Stadium,"March 28, 2022",7:30 PM
+Rajasthan Royals,Sunrisers Hyderabad,Maharashtra Cricket Association Stadium,"March 29, 2022",7:30 PM
+Kolkata Knight Riders,Royal Challengers Bangalore,Dr DY Patil Sports Academy,"March 30, 2022",7:30 PM
+Chennai Super Kings,Lucknow Super Giants,Brabourne Stadium,"March 31, 2022",7:30 PM
+Kings XI Punjab,Kolkata Knight Riders,Wankhede Stadium,"April 1, 2022",7:30 PM
+Rajasthan Royals,Mumbai Indians,Dr DY Patil Sports Academy,"April 2, 2022",3:30 PM
+Gujarat Titans,Delhi Capitals,Maharashtra Cricket Association Stadium,"April 2, 2022",7:30 PM
+Kings XI Punjab,Chennai Super Kings,Brabourne Stadium,"April 3, 2022",7:30 PM
+Lucknow Super Giants,Sunrisers Hyderabad,Dr DY Patil Sports Academy,"April 4, 2022",7:30 PM
+Rajasthan Royals,Royal Challengers Bangalore,Wankhede Stadium,"April 5, 2022",7:30 PM
+Mumbai Indians,Kolkata Knight Riders,Maharashtra Cricket Association Stadium,"April 6, 2022",7:30 PM
+Delhi Capitals,Lucknow Super Giants,Dr DY Patil Sports Academy,"April 7, 2022",7:30 PM
+Kings XI Punjab,Gujarat Titans,Brabourne Stadium,"April 8, 2022",7:30 PM
+Chennai Super Kings,Sunrisers Hyderabad,Dr DY Patil Sports Academy,"April 9, 2022",3:30 PM
+Mumbai Indians,Royal Challengers Bangalore,Maharashtra Cricket Association Stadium,"April 9, 2022",7:30 PM
+Delhi Capitals,Kolkata Knight Riders,Brabourne Stadium,"April 10, 2022",3:30 PM
+Rajasthan Royals,Lucknow Super Giants,Wankhede Stadium,"April 10, 2022",7:30 PM
+Gujarat Titans,Sunrisers Hyderabad,Dr DY Patil Sports Academy,"April 11, 2022",7:30 PM
+Chennai Super Kings,Royal Challengers Bangalore,Dr DY Patil Sports Academy,"April 12, 2022",7:30 PM
+Kings XI Punjab,Mumbai Indians,Maharashtra Cricket Association Stadium,"April 13, 2022",7:30 PM
+Gujarat Titans,Rajasthan Royals,Dr DY Patil Sports Academy,"April 14, 2022",7:30 PM
+Kolkata Knight Riders,Sunrisers Hyderabad,Brabourne Stadium,"April 15, 2022",7:30 PM
+Lucknow Super Giants,Mumbai Indians,Brabourne Stadium,"April 16, 2022",3:30 PM
+Royal Challengers Bangalore,Delhi Capitals,Wankhede Stadium,"April 16, 2022",7:30 PM
+Kings XI Punjab,Sunrisers Hyderabad,Dr DY Patil Sports Academy,"April 17, 2022",3:30 PM
+Chennai Super Kings,Gujarat Titans,Maharashtra Cricket Association Stadium,"April 17, 2022",7:30 PM
+Rajasthan Royals,Kolkata Knight Riders,Brabourne Stadium,"April 18, 2022",7:30 PM
+Royal Challengers Bangalore,Lucknow Super Giants,Dr DY Patil Sports Academy,"April 19, 2022",7:30 PM
+Kings XI Punjab,Delhi Capitals,Brabourne Stadium,"April 20, 2022",7:30 PM
+Mumbai Indians,Chennai Super Kings,Dr DY Patil Sports Academy,"April 21, 2022",7:30 PM
+Rajasthan Royals,Delhi Capitals,Wankhede Stadium,"April 22, 2022",7:30 PM
+Gujarat Titans,Kolkata Knight Riders,Dr DY Patil Sports Academy,"April 23, 2022",3:30 PM
+Royal Challengers Bangalore,Sunrisers Hyderabad,Brabourne Stadium,"April 23, 2022",7:30 PM
+Lucknow Super Giants,Mumbai Indians,Wankhede Stadium,"April 24, 2022",7:30 PM
+Kings XI Punjab,Chennai Super Kings,Wankhede Stadium,"April 25, 2022",7:30 PM
+Rajasthan Royals,Royal Challengers Bangalore,Maharashtra Cricket Association Stadium,"April 26, 2022",7:30 PM
+Sunrisers Hyderabad,Gujarat Titans,Wankhede Stadium,"April 27, 2022",7:30 PM
+Kolkata Knight Riders,Delhi Capitals,Wankhede Stadium,"April 28, 2022",7:30 PM
+Lucknow Super Giants,Kings XI Punjab,Maharashtra Cricket Association Stadium,"April 29, 2022",7:30 PM
+Royal Challengers Bangalore,Gujarat Titans,Brabourne Stadium,"April 30, 2022",3:30 PM
+Rajasthan Royals,Mumbai Indians,Dr DY Patil Sports Academy,"April 30, 2022",7:30 PM
+Lucknow Super Giants,Delhi Capitals,Wankhede Stadium,"May 1, 2022",3:30 PM
+Chennai Super Kings,Sunrisers Hyderabad,Maharashtra Cricket Association Stadium,"May 1, 2022",7:30 PM
+Rajasthan Royals,Kolkata Knight Riders,Wankhede Stadium,"May 2, 2022",7:30 PM
+Gujarat Titans,Kings XI Punjab,Dr DY Patil Sports Academy,"May 3, 2022",7:30 PM
+Royal Challengers Bangalore,Chennai Super Kings,Maharashtra Cricket Association Stadium,"May 4, 2022",7:30 PM
+Delhi Capitals,Sunrisers Hyderabad,Brabourne Stadium,"May 5, 2022",7:30 PM
+Gujarat Titans,Mumbai Indians,Brabourne Stadium,"May 6, 2022",7:30 PM
+Kings XI Punjab,Rajasthan Royals,Wankhede Stadium,"May 7, 2022",3:30 PM
+Lucknow Super Giants,Kolkata Knight Riders,Maharashtra Cricket Association Stadium,"May 7, 2022",3:30 PM
+Sunrisers Hyderabad,Royal Challengers Bangalore,Wankhede Stadium,"May 8, 2022",3:30 PM
+Chennai Super Kings,Delhi Capitals,Dr DY Patil Sports Academy,"May 8, 2022",3:30 PM
+Mumbai Indians,Kolkata Knight Riders,Dr DY Patil Sports Academy,"May 9, 2022",7:30 PM
+Lucknow Super Giants,Gujarat Titans,Maharashtra Cricket Association Stadium,"May 10, 2022",7:30 PM
+Rajasthan Royals,Delhi Capitals,Dr DY Patil Sports Academy,"May 11, 2022",7:30 PM
+Chennai Super Kings,Mumbai Indians,Wankhede Stadium,"May 12, 2022",7:30 PM
+Royal Challengers Bangalore,Kings XI Punjab,Brabourne Stadium,"May 13, 2022",7:30 PM
+Kolkata Knight Riders,Sunrisers Hyderabad,Maharashtra Cricket Association Stadium,"May 14, 2022",7:30 PM
+Chennai Super Kings,Gujarat Titans,Wankhede Stadium,"May 15, 2022",3:30 PM
+Lucknow Super Giants,Rajasthan Royals,Brabourne Stadium,"May 15, 2022",7:30 PM
+Kings XI Punjab,Delhi Capitals,Dr DY Patil Sports Academy,"May 16, 2022",7:30 PM
+Mumbai Indians,Sunrisers Hyderabad,Wankhede Stadium,"May 17, 2022",7:30 PM
+Kolkata Knight Riders,Lucknow Super Giants,Dr DY Patil Sports Academy,"May 18, 2022",7:30 PM
+Royal Challengers Bangalore,Gujarat Titans,Wankhede Stadium,"May 19, 2022",7:30 PM
+Rajasthan Royals,Chennai Super Kings,Brabourne Stadium,"May 20, 2022",7:30 PM
+Mumbai Indians,Delhi Capitals,Wankhede Stadium,"May 21, 2022",7:30 PM
+Sunrisers Hyderabad,Kings XI Punjab,Wankhede Stadium,"May 22, 2022",7:30 PM
+TBC,TBC,Eden Gardens,,
+TBC,TBC,Eden Gardens,,
+TBC,TBC,Narendra Modi Stadium,,
+TBC,TBC,Narendra Modi Stadium,,

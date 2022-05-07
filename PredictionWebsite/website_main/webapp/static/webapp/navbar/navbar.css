@@ -1,0 +1,41 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+    height: 42rem;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 1% 15% 0;
+
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1%;
+}
+
+.download-btn {
+    margin: 5% 3% 1% ;
+}

@@ -1,0 +1,30 @@
+{% extends 'webapp/base2.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="content-section view-predict-div">
+            <form method="POST" action="">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend class="border-bottom mb-4">
+                        Predict
+                    </legend>
+                    {{ form|crispy }}
+                </fieldset>
+                <div class="form-group sign-up-btn-div">
+                    <button class="btn btn-outline-info" type="submit">
+                        Submit
+                    </button>
+                </div>
+                <div>
+                    <em>match winner will be {{ result2 }}</em><br>
+                    <em>Score predicted at the end of the inning: {{ result }}</em>
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+
+{% endblock content %}

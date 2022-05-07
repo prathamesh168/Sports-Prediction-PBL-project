@@ -1,0 +1,36 @@
+{% extends 'webapp/base2.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section register-login-div" >
+        {% if messages %}
+            {% for message in messages %}
+                <div class="container-fluid alert alert-{{ message.tags }} alert-div">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+        <form method="POST" action="">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">
+                    Log In
+                </legend>
+                {{ form|crispy }}
+            </fieldset>
+            
+            <div class="form-group sign-up-btn-div">
+                <button class="btn btn-outline-info" type="submit">
+                    Login
+                </button>
+            </div>
+
+        </form>
+
+        <div class="border-top pt-3">
+            <small class="text-muted">
+                Need an account? <a class="ml-2" href="{% url 'register' %}">Sign Up Now</a>
+            </small>
+        </div>
+
+    </div>
+{% endblock content %}
