@@ -58,11 +58,15 @@ def get_prediction(venue,team1,team2,toss_winner,toss_decision):
     Xnew = array([[venue,team1,team2,toss_winner,toss_decision]])
     print(Xnew)
     predict = model.predict(Xnew)
-    var =0
-    for i in range(8):
-        if(var<predict[0][i]):
-            var = predict[0][i]
-            index = i
+    # var =0
+    # for i in range(8):
+    #     if(var<=predict[0][i]):
+    #         var = predict[0][i]
+    #         index = i
+    if(predict[0][team1] >= predict[0][team2]):
+        index = team1
+    else:
+        index = team2    
     gamma = index     
     # max_v = np.where(predict == np.amax(predict))
     return gamma
