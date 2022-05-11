@@ -232,7 +232,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 40px 0;
-  margin-left: 15rem;
+  /* margin-left: 15rem; */
 }
 
 .cardcontainer .box

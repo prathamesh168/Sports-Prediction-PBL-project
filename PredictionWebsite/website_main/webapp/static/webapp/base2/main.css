@@ -165,3 +165,85 @@ th:first-of-type:last-of-type {
 .footer-p {
     color: white;
 }
+
+
+/* Login */
+ .logininnercontainer{
+    
+    border-style:solid;
+    border-radius: 0.5rem;
+    border-color: white;
+    padding: 2rem;
+    position: relative;
+    bottom: 23rem;
+    left:18rem;
+} 
+.logincontainer{
+    
+    background-color: black; 
+    border-color: antiquewhite;
+    border-style:dashed; 
+    border-radius: 5rem;
+    bottom: 0rem;
+     height:100vh;
+     overflow-y: hidden;
+}
+.login-img
+{
+    left:-18rem;
+    position: relative;
+    /* top: 12rem; */
+}
+.needacc{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/*Register Page*/
+.regclass{
+    position: relative;
+    bottom:10rem;
+}
+.reg-img{
+    
+    width:100%;
+    margin-bottom: -55rem;
+}
+.registercontainer{
+    overflow-y: hidden;
+}
+
+/*Match Predcition*/
+.resultcontainer{
+    border-style:double;
+    border-color: gold;
+    padding:5rem;
+    border-radius: 2rem;
+}
+.result{
+  color:darkblue;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.actualresult{
+    color:maroon;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.discl{
+    color:red;
+    font-size: 0.8rem;
+    position: relative;
+    top:4rem;
+    right:20rem;
+}
+
+/*Predcit*/
+
+.prediccontainer{
+    background-color:black;
+    border-color:lightseagreen;
+    border-style:solid;
+    
+
+}

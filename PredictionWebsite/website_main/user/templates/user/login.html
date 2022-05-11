@@ -1,8 +1,12 @@
 {% extends 'webapp/base2.html' %}
 {% load crispy_forms_tags %}
 {% block content %}
+<div class="row" >
+<div class="logincontainer"  style="color:white">
     <div class="content-section register-login-div" >
-        {% if messages %}
+        <img class="login-img" src="../../../static/webapp/base2/lock-key2.jpg" alt="">
+        <div class="logininnercontainer " style="font-weight: 700">
+            {% if messages %}
             {% for message in messages %}
                 <div class="container-fluid alert alert-{{ message.tags }} alert-div">
                     {{ message }}
@@ -18,19 +22,26 @@
                 {{ form|crispy }}
             </fieldset>
             
-            <div class="form-group sign-up-btn-div">
+            <div class="form-group sign-up-btn-div" >
                 <button class="btn btn-outline-info" type="submit">
                     Login
                 </button>
             </div>
 
         </form>
-
+       <div class="needacc">
         <div class="border-top pt-3">
             <small class="text-muted">
                 Need an account? <a class="ml-2" href="{% url 'register' %}">Sign Up Now</a>
             </small>
         </div>
-
+       </div>
+        
+        </div>
+       
+    
     </div>
+</div>
+
+</div>
 {% endblock content %}

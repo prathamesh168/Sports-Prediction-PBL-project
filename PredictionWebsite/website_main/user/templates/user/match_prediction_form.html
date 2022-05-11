@@ -2,9 +2,12 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
-
+<div class="prediccontainer" style="color:white">
     <div class="row">
-        <div class="content-section view-predict-div">
+        <div class="qmark col-lg-3 col-md-2 col-sm-12">
+            <img class="heading-img" src="../../../static/webapp/base2/qmark2.jpg" alt="">
+        </div>
+        <div class=" col-lg-6 col md-8">
             <form method="POST" action="">
                 {% csrf_token %}
                 <fieldset class="form-group">
@@ -18,13 +21,23 @@
                         Submit
                     </button>
                 </div>
-                <div>
-                    <em>match winner will be {{ result2 }}</em><br>
-                    <em>Score predicted at the end of the inning: {{ result }}</em>
+                <div class="resultcontainer">
+                    <div class="result">Score predicted at the end of the inning: <div class="actualresult">{{result}}</div></div>
+                    <div class="result">The winner of the match will be: <div class="actualresult">{{result2}}</div></div>
+                    <p>
+
+
+
+
+
+                    </p>
                     
                 </div>
             </form>
         </div>
+    <div class="qmark col-lg-3 col-md-2 col-sm-12">
+            <img class="heading-img" src="../../../static/webapp/base2/qmark2.jpg" alt="">
     </div>
-
+    </div>
+</div>
 {% endblock content %}

@@ -1,3 +1,143 @@
+# from django import forms
+# from django.contrib.auth.models import User
+# from django.contrib.auth.forms import UserCreationForm
+
+# import pickle
+# from numpy import array
+
+# def get_prediction1(venue,team1,team2,runs,wickets,over,runs_last_5,wickets_last_5):
+#     file1 = open('xgboost_runpredictor.pki','rb')
+    
+#     model = pickle.load(file1)
+#     file = open('Label_Encoder.pki','rb')
+#     label = pickle.load(file)
+#     venues = {'Barabati Stadium': 0,
+#  'Brabourne Stadium': 1,
+#  'Buffalo Park': 2,
+#  'De Beers Diamond Oval': 3,
+#  'Dr DY Patil Sports Academy': 4,
+#  'Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium': 5,
+#  'Dubai International Cricket Stadium': 6,
+#  'Eden Gardens': 7,
+#  'Feroz Shah Kotla': 8,
+#  'Himachal Pradesh Cricket Association Stadium': 9,
+#  'Holkar Cricket Stadium': 10,
+#  'JSCA International Stadium Complex': 11,
+#  'Kingsmead': 12,
+#  'M Chinnaswamy Stadium': 13,
+#  'MA Chidambaram Stadium, Chepauk': 14,
+#  'Maharashtra Cricket Association Stadium': 15,
+#  'New Wanderers Stadium': 16,
+#  'Newlands': 17,
+#  'OUTsurance Oval': 18,
+#  'Punjab Cricket Association IS Bindra Stadium, Mohali': 19,
+#  'Punjab Cricket Association Stadium, Mohali': 20,
+#  'Rajiv Gandhi International Stadium, Uppal': 21,
+#  'Sardar Patel Stadium, Motera': 22,
+#  'Sawai Mansingh Stadium': 23,
+#  'Shaheed Veer Narayan Singh International Stadium': 24,
+#  'Sharjah Cricket Stadium': 25,
+#  'Sheikh Zayed Stadium': 26,
+#  "St George's Park": 27,
+#  'Subrata Roy Sahara Stadium': 28,
+#  'SuperSport Park': 29,
+#  'Wankhede Stadium': 30}
+#     venue = venues[venue]
+#     teams = {'Chennai Super Kings': 0,
+#  'Delhi Daredevils': 1,
+#  'Kings XI Punjab': 2,
+#  'Kolkata Knight Riders': 3,
+#  'Mumbai Indians': 4,
+#  'Rajasthan Royals': 5,
+#  'Royal Challengers Bangalore': 6,
+#  'Sunrisers Hyderabad': 7}
+#     bat_team = teams[team1]
+#     bowl_team = teams[team2]    
+#     Xnew = array([[venue,bat_team,bowl_team,runs,wickets,runs_last_5,wickets_last_5]])
+#     print(Xnew)
+#     predict = int(model.predict(Xnew))
+       
+#     # max_v = np.where(predict == np.amax(predict))
+#     return predict
+    
+# def result():
+#     venue = str(request.GET['venue'])
+#     team1 = str(request.GET['team1'])
+#     team2 = str(request.GET['team2'])
+#     runs = int(request.GET['runs'])
+#     wickets = int(request.GET['wickets'])
+#     overs = float(request.GET['overs'])
+#     runs_last_5 = int(request.GET['runs_last_5'])
+#     wickets_last_5 = int(request.GET['wickets_last_5'])
+#     result_en = int(get_prediction1(venue, team1, team2, runs, wickets, overs, runs_last_5, wickets_last_5))
+
+#     return render(request, 'result.html', {'result':result_en})
+
+
+# class UserRegisterForm(UserCreationForm):
+#     email = forms.EmailField()
+#     f_name = forms.CharField(label='First Name')
+#     l_name = forms.CharField(label='Last Name')
+
+#     class Meta:
+#         model = User
+#         fields = ['f_name', 'l_name', 'username', 'email', 'password1', 'password2']
+
+
+# class PredictionInputForm(forms.Form):
+#     bat_team = forms.ChoiceField(
+#         label = "Which team is batting?",
+#         choices = ((1, 'Chennai Super Kings'), (2, 'Delhi Capitals'), (3, 'Kings XI Punjab'), (4, 'Kolkata Knight Riders'), (5, 'Mumbai Indians'), (6, 'Rajasthan Royals'), (7, 'Royal Challengers Bangalore'), (8, 'Sunrisers Hyderabad'), (9, 'Lucknow Super Giants'), (10, 'Gujarat Titans')),
+#     )
+#     ball_team = forms.ChoiceField(
+#         label = "Which team is bowling?",
+#         choices = ((1, 'Chennai Super Kings'), (2, 'Delhi Capitals'), (3, 'Kings XI Punjab'), (4, 'Kolkata Knight Riders'), (5, 'Mumbai Indians'), (6, 'Rajasthan Royals'), (7, 'Royal Challengers Bangalore'), (8, 'Sunrisers Hyderabad'), (9, 'Lucknow Super Giants'), (10, 'Gujarat Titans')),
+#     )
+#     venue = forms.ChoiceField(
+#         label='Venue',
+#         choices = ((1, 'Barabati Stadium'),
+#             (2, 'Brabourne Stadium'),
+#             (3, 'Buffalo Park'),
+#             (4, 'De Beers Diamond Oval'),
+#             (5, 'Dr DY Patil Sports Academy'),
+#             (6, 'Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium'),
+#             (7, 'Dubai International Cricket Stadium'),
+#             (8, 'Eden Gardens'),
+#             (9, 'Feroz Shah Kotla'),
+#             (10, 'Himachal Pradesh Cricket Association Stadium'),
+#             (11, 'Holkar Cricket Stadium'),
+#             (12, 'JSCA International Stadium Complex'),
+#             (13, 'Kingsmead'),
+#             (14, 'M Chinnaswamy Stadium'),
+#             (15, 'MA Chidambaram Stadium, Chepauk'),
+#             (16, 'Maharashtra Cricket Association Stadium'),
+#             (17, 'New Wanderers Stadium'),
+#             (18, 'Newlands'),
+#             (19, 'OUTsurance Oval'),
+#             (20, 'Punjab Cricket Association IS Bindra Stadium, Mohali'),
+#             (21, 'Punjab Cricket Association Stadium, Mohali'),
+#             (22, 'Rajiv Gandhi International Stadium, Uppal'),
+#             (23, 'Sardar Patel Stadium, Motera'),
+#             (24, 'Sawai Mansingh Stadium'),
+#             (25, 'Shaheed Veer Narayan Singh International Stadium'),
+#             (26, 'Sharjah Cricket Stadium'),
+#             (27, 'Sheikh Zayed Stadium'),
+#             (28, "St George's Park"),
+#             (29, 'Subrata Roy Sahara Stadium'),
+#             (30, 'SuperSport Park'),
+#             (31, 'Wankhede Stadium')
+#         )
+#     )
+#     runs = forms.IntegerField(label='Runs')
+#     wickets = forms.IntegerField(label='Wickets')
+#     overs = forms.FloatField(label='Overs')
+#     runs5 = forms.IntegerField(label='Runs in last 5 overs')
+#     wickets5 = forms.IntegerField(label='Wickets in last 5 overs')
+
+#     class Meta:
+#         model = User
+#         fields = ['bat_team', 'ball_team', 'runs', 'wickets', 'overs', 'runs5', 'wickets5']
+
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
@@ -224,4 +364,5 @@ class PredictionInputForm(forms.Form):
     class Meta:
         model = User
         fields = ['venue','bat_team', 'ball_team', 'runs', 'wickets', 'overs', 'runs5', 'wickets5']
+
 

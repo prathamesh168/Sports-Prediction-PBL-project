@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .forms import UserRegisterForm, PredictionInputForm
-from .forms import get_prediction1,result1
+from .forms import get_prediction1, result1
 
 def register(request):
     if request.method == 'POST':
@@ -21,6 +21,30 @@ def register(request):
     }
 
     return render(request, 'user/register.html', context)
+
+# def prediction_input(request):
+#     if request.method == 'POST':
+#         form = PredictionInputForm(request.POST)
+#         if form.is_valid():
+#             bat_team = form.cleaned_data.get('bat_team')
+#             ball_team = form.cleaned_data.get('ball_team')
+#             venue = form.cleaned_data.get('venue')
+#             runs = form.cleaned_data.get('runs')
+#             wickets = form.cleaned_data.get('wickets')
+#             overs = form.cleaned_data.get('over')
+#             runs5 = form.cleaned_data.get('runs5')
+#             wickets5 = form.cleaned_data.get('wickets5')
+#             result_en = int(get_prediction1(venue, bat_team, ball_team, runs, wickets, overs, runs5, wickets5))
+#             return render(request, 'user/match_prediction_form.html', {'result': result_en})
+
+#     else:
+#         form = PredictionInputForm()
+
+#     context = {
+#         'form': form,
+#     }
+
+#     return render(request, 'user/match_prediction_form.html', context)
 
 def prediction_input(request):
     if request.method == 'POST':

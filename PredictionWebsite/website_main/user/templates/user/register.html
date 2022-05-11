@@ -1,7 +1,10 @@
 {% extends 'webapp/base2.html' %}
 {% load crispy_forms_tags %}
 {% block content %}
+<div class="registercontainer">
+    <img class="reg-img" src="../../../static/webapp/base2/regis-page.jpg" alt="">
     <div class="content-section register-login-div" >
+    <div class="regclass">
         <form method="POST" action="">
             {% csrf_token %}
             <fieldset class="form-group">
@@ -23,6 +26,8 @@
                 Already have an account? <a class="ml-2" href="{% url 'login' %}">Sign In</a>
             </small>
         </div>
-
     </div>
+    </div>
+</div>
+   
 {% endblock content %}
