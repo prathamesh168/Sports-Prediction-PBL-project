@@ -4,7 +4,7 @@
  # Application actual working
   ### Our website currently able to predict scores on current condition and match winner before match in case of  Cricket("Indian Premier League") and match winning team in case of Football("English Premier League").
   ### In case of Cricket prediction, it takes the data from user which enables user to give frredom check any condtion of match to predict score amd match winner. In which match winner predicted is only on venue , toss winner , toss decision  which gives best idea who is gonna win before match. Our other fields are for predicting the final score of batting team in 20 overs based on the given condition by user.
-  ### In case of Football, user need not to give any type of input rather the match winner is showed in todays matches table. 
+  ### In case of Football, user need not to give any type of input rather it will show the match winner in upcomning matches table. 
   
   # Setup 
   ### If you want to run this site locally then you have to first clone the repository in your system
