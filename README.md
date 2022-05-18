@@ -16,7 +16,7 @@
     $ source env/bin/activate
   ### Then install dependensies
     $ pip install -r requirements.txt
-  ### Note the `(env}` in front of the prompt. This indicates that this terminal session operates in a virtual environment set up by `virtualenv`.
+  ### Note the `(env)` in front of the prompt. This indicates that this terminal session operates in a virtual environment set up by `virtualenv`.
   ### Once the dependensies get installed correctly then run django local server and you are good to go.
     $ python manage.py runserver
   ### and navigate to  http://127.0.0.1:8000/
@@ -25,4 +25,9 @@
    ### For Cricket prediction, we can live scrape the data we need to predict and make it user friendly and also can give other site to check user inputted score predictions.
    ### For Cricket prediction, score predictor model working with mean squared error of plus or minus 19 runs which can reduce using hyperparameter tunning and applying the more efficent algorithm.
    ### For Football prediction, model other features like weather can be added or current rankings or global rankings in dataset and train the model which will give surely better accuracy. 
-made with love :)
+ # Contributers
+ ### Parag Kulkarni 
+ ### Pritish Pore
+ ### Aditya Medhe
+ ### Prathamesh Mulay
+
